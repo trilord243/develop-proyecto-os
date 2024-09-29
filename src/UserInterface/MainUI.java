@@ -662,8 +662,9 @@ public class MainUI extends javax.swing.JFrame {
         DellConfig_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
         DellConfig_label.setForeground(new java.awt.Color(255, 255, 255));
         DellConfig_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        DellConfig_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/dellLogo.png"))); // NOI18N
         DellConfig_label.setText("DELL");
-        ConfigurationTab.add(DellConfig_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 100, 210, 60));
+        ConfigurationTab.add(DellConfig_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 80, 210, 60));
 
         DelllMinWorker_label.setBackground(new java.awt.Color(102, 102, 102));
         DelllMinWorker_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N

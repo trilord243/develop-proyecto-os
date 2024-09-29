@@ -416,45 +416,6 @@ public class MainUI extends javax.swing.JFrame {
     private void initComponents() {
 
         Tabs = new javax.swing.JTabbedPane();
-        ConfigurationTab = new javax.swing.JPanel();
-        Config_label = new javax.swing.JLabel();
-        General_label = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        dayDurationInput = new javax.swing.JTextPane();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        deliveryDaysInput = new javax.swing.JTextPane();
-        setConfiguration = new javax.swing.JButton();
-        infoLabel = new javax.swing.JLabel();
-        dayDuration_label = new javax.swing.JLabel();
-        deliveryDays_label = new javax.swing.JLabel();
-        DellConfig_label = new javax.swing.JLabel();
-        DelllMinWorker_label = new javax.swing.JLabel();
-        MSIConfig_label = new javax.swing.JLabel();
-        CNMaximumWorkers_label = new javax.swing.JLabel();
-        MotherBoard_label = new javax.swing.JLabel();
-        productores_placa_base_dell = new javax.swing.JSpinner();
-        CPU_label = new javax.swing.JLabel();
-        productores_cpu_dell = new javax.swing.JSpinner();
-        dell_ram_label = new javax.swing.JLabel();
-        productores_memoria_ram_dell = new javax.swing.JSpinner();
-        PowerSupply_label = new javax.swing.JLabel();
-        productores_fuente_alimentacion_dell = new javax.swing.JSpinner();
-        gpu_label = new javax.swing.JLabel();
-        productores_gpu_dell = new javax.swing.JSpinner();
-        assemblers_label = new javax.swing.JLabel();
-        productores_ensambladores_dell = new javax.swing.JSpinner();
-        motherboard_label1 = new javax.swing.JLabel();
-        cpu_label1 = new javax.swing.JLabel();
-        Ram_label_msi = new javax.swing.JLabel();
-        PowerSupply_label1 = new javax.swing.JLabel();
-        gpu_label2 = new javax.swing.JLabel();
-        assemblers_label2 = new javax.swing.JLabel();
-        productores_placa_base_msi = new javax.swing.JSpinner();
-        productores_cpu_msi = new javax.swing.JSpinner();
-        productores_memoria_ram_msi = new javax.swing.JSpinner();
-        productores_fuente_alimentacion_msi = new javax.swing.JSpinner();
-        productores_gpu_msi = new javax.swing.JSpinner();
-        productores_ensambladores_msi = new javax.swing.JSpinner();
         MsiTab = new javax.swing.JPanel();
         Computer_parts_dell_label = new javax.swing.JLabel();
         MotherBoard_tab = new javax.swing.JLabel();
@@ -524,7 +485,6 @@ public class MainUI extends javax.swing.JFrame {
         statisticsTab = new javax.swing.JPanel();
         chartPanel = new javax.swing.JPanel();
         DellTab = new javax.swing.JPanel();
-        Dell_lable = new javax.swing.JLabel();
         dell_label_ram = new javax.swing.JLabel();
         ram_dell = new javax.swing.JLabel();
         max_dell_ram = new javax.swing.JLabel();
@@ -590,6 +550,47 @@ public class MainUI extends javax.swing.JFrame {
         dell_assembly_mina = new javax.swing.JButton();
         dell_assembly_plus = new javax.swing.JButton();
         startSimulation = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
+        ConfigurationTab = new javax.swing.JPanel();
+        Config_label = new javax.swing.JLabel();
+        General_label = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        dayDurationInput = new javax.swing.JTextPane();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        deliveryDaysInput = new javax.swing.JTextPane();
+        setConfiguration = new javax.swing.JButton();
+        infoLabel = new javax.swing.JLabel();
+        dayDuration_label = new javax.swing.JLabel();
+        deliveryDays_label = new javax.swing.JLabel();
+        DellConfig_label = new javax.swing.JLabel();
+        DelllMinWorker_label = new javax.swing.JLabel();
+        MSIConfig_label = new javax.swing.JLabel();
+        CNMaximumWorkers_label = new javax.swing.JLabel();
+        MotherBoard_label = new javax.swing.JLabel();
+        productores_placa_base_dell = new javax.swing.JSpinner();
+        CPU_label = new javax.swing.JLabel();
+        productores_cpu_dell = new javax.swing.JSpinner();
+        dell_ram_label = new javax.swing.JLabel();
+        productores_memoria_ram_dell = new javax.swing.JSpinner();
+        PowerSupply_label = new javax.swing.JLabel();
+        productores_fuente_alimentacion_dell = new javax.swing.JSpinner();
+        gpu_label = new javax.swing.JLabel();
+        productores_gpu_dell = new javax.swing.JSpinner();
+        assemblers_label = new javax.swing.JLabel();
+        productores_ensambladores_dell = new javax.swing.JSpinner();
+        motherboard_label1 = new javax.swing.JLabel();
+        cpu_label1 = new javax.swing.JLabel();
+        Ram_label_msi = new javax.swing.JLabel();
+        PowerSupply_label1 = new javax.swing.JLabel();
+        gpu_label2 = new javax.swing.JLabel();
+        assemblers_label2 = new javax.swing.JLabel();
+        productores_placa_base_msi = new javax.swing.JSpinner();
+        productores_cpu_msi = new javax.swing.JSpinner();
+        productores_memoria_ram_msi = new javax.swing.JSpinner();
+        productores_fuente_alimentacion_msi = new javax.swing.JSpinner();
+        productores_gpu_msi = new javax.swing.JSpinner();
+        productores_ensambladores_msi = new javax.swing.JSpinner();
+        jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -598,234 +599,11 @@ public class MainUI extends javax.swing.JFrame {
         Tabs.setForeground(new java.awt.Color(255, 255, 255));
         Tabs.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
 
-        ConfigurationTab.setBackground(new java.awt.Color(51, 51, 51));
-        ConfigurationTab.setForeground(new java.awt.Color(255, 255, 255));
-        ConfigurationTab.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Config_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 36)); // NOI18N
-        Config_label.setForeground(new java.awt.Color(255, 255, 153));
-        Config_label.setText("CONFIGURATION");
-        ConfigurationTab.add(Config_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 20, 330, 60));
-
-        General_label.setBackground(new java.awt.Color(102, 102, 102));
-        General_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        General_label.setForeground(new java.awt.Color(255, 255, 255));
-        General_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        General_label.setText("GENERAL");
-        ConfigurationTab.add(General_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 110, 140, 40));
-
-        dayDurationInput.setFont(new java.awt.Font("Microsoft YaHei", 0, 12)); // NOI18N
-        dayDurationInput.setForeground(new java.awt.Color(0, 0, 0));
-        jScrollPane1.setViewportView(dayDurationInput);
-
-        ConfigurationTab.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 200, 120, -1));
-
-        deliveryDaysInput.setFont(new java.awt.Font("Microsoft YaHei", 0, 12)); // NOI18N
-        deliveryDaysInput.setForeground(new java.awt.Color(0, 0, 0));
-        jScrollPane2.setViewportView(deliveryDaysInput);
-
-        ConfigurationTab.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 270, 120, -1));
-
-        setConfiguration.setBackground(new java.awt.Color(255, 255, 153));
-        setConfiguration.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 18)); // NOI18N
-        setConfiguration.setForeground(new java.awt.Color(51, 51, 51));
-        setConfiguration.setText("SET CONFIGURATION");
-        setConfiguration.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                setConfigurationActionPerformed(evt);
-            }
-        });
-        ConfigurationTab.add(setConfiguration, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 410, 260, 50));
-
-        infoLabel.setBackground(new java.awt.Color(102, 102, 102));
-        infoLabel.setFont(new java.awt.Font("Microsoft YaHei", 1, 10)); // NOI18N
-        infoLabel.setForeground(new java.awt.Color(255, 255, 153));
-        infoLabel.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        infoLabel.setText("You have to press the button to set the configuration");
-        ConfigurationTab.add(infoLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 470, 280, 30));
-
-        dayDuration_label.setBackground(new java.awt.Color(102, 102, 102));
-        dayDuration_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        dayDuration_label.setForeground(new java.awt.Color(255, 255, 255));
-        dayDuration_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dayDuration_label.setText("Day Duration (seconds)");
-        ConfigurationTab.add(dayDuration_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 170, 170, 30));
-
-        deliveryDays_label.setBackground(new java.awt.Color(102, 102, 102));
-        deliveryDays_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        deliveryDays_label.setForeground(new java.awt.Color(255, 255, 255));
-        deliveryDays_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        deliveryDays_label.setText("Days to Deliver");
-        ConfigurationTab.add(deliveryDays_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 240, 110, 30));
-
-        DellConfig_label.setBackground(new java.awt.Color(102, 102, 102));
-        DellConfig_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        DellConfig_label.setForeground(new java.awt.Color(255, 255, 255));
-        DellConfig_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        DellConfig_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/dellLogo.png"))); // NOI18N
-        DellConfig_label.setText("DELL");
-        ConfigurationTab.add(DellConfig_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 80, 210, 60));
-
-        DelllMinWorker_label.setBackground(new java.awt.Color(102, 102, 102));
-        DelllMinWorker_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        DelllMinWorker_label.setForeground(new java.awt.Color(255, 255, 153));
-        DelllMinWorker_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        DelllMinWorker_label.setText("MAXIMUM 18 WORKERS");
-        ConfigurationTab.add(DelllMinWorker_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 150, 180, 30));
-
-        MSIConfig_label.setBackground(new java.awt.Color(102, 102, 102));
-        MSIConfig_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        MSIConfig_label.setForeground(new java.awt.Color(255, 255, 255));
-        MSIConfig_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        MSIConfig_label.setText("MSI");
-        ConfigurationTab.add(MSIConfig_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 100, 270, 60));
-
-        CNMaximumWorkers_label.setBackground(new java.awt.Color(102, 102, 102));
-        CNMaximumWorkers_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        CNMaximumWorkers_label.setForeground(new java.awt.Color(255, 255, 153));
-        CNMaximumWorkers_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        CNMaximumWorkers_label.setText("MAXIMUM 16 WORKERS");
-        ConfigurationTab.add(CNMaximumWorkers_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 150, 170, 30));
-
-        MotherBoard_label.setBackground(new java.awt.Color(102, 102, 102));
-        MotherBoard_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        MotherBoard_label.setForeground(new java.awt.Color(255, 255, 255));
-        MotherBoard_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        MotherBoard_label.setText(" Motherboard Producers");
-        ConfigurationTab.add(MotherBoard_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 190, 190, 30));
-
-        productores_placa_base_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_placa_base_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
-        ConfigurationTab.add(productores_placa_base_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 190, -1, 30));
-
-        CPU_label.setBackground(new java.awt.Color(102, 102, 102));
-        CPU_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        CPU_label.setForeground(new java.awt.Color(255, 255, 255));
-        CPU_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        CPU_label.setText("CPU Producers");
-        ConfigurationTab.add(CPU_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 240, 120, 30));
-
-        productores_cpu_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_cpu_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
-        ConfigurationTab.add(productores_cpu_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 240, -1, 30));
-
-        dell_ram_label.setBackground(new java.awt.Color(102, 102, 102));
-        dell_ram_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        dell_ram_label.setForeground(new java.awt.Color(255, 255, 255));
-        dell_ram_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        dell_ram_label.setText("RAM Memory Producers");
-        ConfigurationTab.add(dell_ram_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 290, 190, 30));
-
-        productores_memoria_ram_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_memoria_ram_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
-        ConfigurationTab.add(productores_memoria_ram_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 290, -1, 30));
-
-        PowerSupply_label.setBackground(new java.awt.Color(102, 102, 102));
-        PowerSupply_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        PowerSupply_label.setForeground(new java.awt.Color(255, 255, 255));
-        PowerSupply_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        PowerSupply_label.setText("Power Supply Producers");
-        ConfigurationTab.add(PowerSupply_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 340, 170, 30));
-
-        productores_fuente_alimentacion_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_fuente_alimentacion_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
-        ConfigurationTab.add(productores_fuente_alimentacion_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 340, -1, 30));
-
-        gpu_label.setBackground(new java.awt.Color(102, 102, 102));
-        gpu_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        gpu_label.setForeground(new java.awt.Color(255, 255, 255));
-        gpu_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gpu_label.setText("GPU Producers");
-        ConfigurationTab.add(gpu_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 390, 110, 30));
-
-        productores_gpu_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_gpu_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
-        ConfigurationTab.add(productores_gpu_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 390, -1, 30));
-
-        assemblers_label.setBackground(new java.awt.Color(102, 102, 102));
-        assemblers_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        assemblers_label.setForeground(new java.awt.Color(255, 255, 255));
-        assemblers_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        assemblers_label.setText("Assembling producers");
-        ConfigurationTab.add(assemblers_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 440, 180, 30));
-
-        productores_ensambladores_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_ensambladores_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
-        ConfigurationTab.add(productores_ensambladores_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 440, -1, 30));
-
-        motherboard_label1.setBackground(new java.awt.Color(102, 102, 102));
-        motherboard_label1.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        motherboard_label1.setForeground(new java.awt.Color(255, 255, 255));
-        motherboard_label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        motherboard_label1.setText(" Motherboard Producers");
-        ConfigurationTab.add(motherboard_label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 190, 190, 30));
-
-        cpu_label1.setBackground(new java.awt.Color(102, 102, 102));
-        cpu_label1.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        cpu_label1.setForeground(new java.awt.Color(255, 255, 255));
-        cpu_label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        cpu_label1.setText("CPU Producers");
-        ConfigurationTab.add(cpu_label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 240, 120, 30));
-
-        Ram_label_msi.setBackground(new java.awt.Color(102, 102, 102));
-        Ram_label_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        Ram_label_msi.setForeground(new java.awt.Color(255, 255, 255));
-        Ram_label_msi.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        Ram_label_msi.setText("RAM Memory Producers");
-        ConfigurationTab.add(Ram_label_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 290, 200, 30));
-
-        PowerSupply_label1.setBackground(new java.awt.Color(102, 102, 102));
-        PowerSupply_label1.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        PowerSupply_label1.setForeground(new java.awt.Color(255, 255, 255));
-        PowerSupply_label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        PowerSupply_label1.setText("Power Supply Producers");
-        ConfigurationTab.add(PowerSupply_label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 340, 220, 30));
-
-        gpu_label2.setBackground(new java.awt.Color(102, 102, 102));
-        gpu_label2.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        gpu_label2.setForeground(new java.awt.Color(255, 255, 255));
-        gpu_label2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        gpu_label2.setText("GPU Producers");
-        ConfigurationTab.add(gpu_label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 390, 110, 30));
-
-        assemblers_label2.setBackground(new java.awt.Color(102, 102, 102));
-        assemblers_label2.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        assemblers_label2.setForeground(new java.awt.Color(255, 255, 255));
-        assemblers_label2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        assemblers_label2.setText("Assembling producers");
-        ConfigurationTab.add(assemblers_label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 440, 200, 30));
-
-        productores_placa_base_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_placa_base_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
-        ConfigurationTab.add(productores_placa_base_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 190, -1, 30));
-
-        productores_cpu_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_cpu_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
-        ConfigurationTab.add(productores_cpu_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 240, -1, 30));
-
-        productores_memoria_ram_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_memoria_ram_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
-        ConfigurationTab.add(productores_memoria_ram_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 290, -1, 30));
-
-        productores_fuente_alimentacion_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_fuente_alimentacion_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
-        ConfigurationTab.add(productores_fuente_alimentacion_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 340, -1, 30));
-
-        productores_gpu_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_gpu_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
-        ConfigurationTab.add(productores_gpu_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 390, -1, 30));
-
-        productores_ensambladores_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
-        productores_ensambladores_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
-        ConfigurationTab.add(productores_ensambladores_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(820, 440, -1, 30));
-
-        Tabs.addTab("Configuration", ConfigurationTab);
-
         MsiTab.setBackground(new java.awt.Color(51, 51, 51));
         MsiTab.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         Computer_parts_dell_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        Computer_parts_dell_label.setForeground(new java.awt.Color(255, 255, 255));
+        Computer_parts_dell_label.setForeground(new java.awt.Color(238, 35, 43));
         Computer_parts_dell_label.setText("Computer parts");
         MsiTab.add(Computer_parts_dell_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 200, 40));
 
@@ -910,7 +688,7 @@ public class MainUI extends javax.swing.JFrame {
         MsiTab.add(max_msi_gpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 390, 40, 40));
 
         directorMSI_title.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        directorMSI_title.setForeground(new java.awt.Color(255, 255, 255));
+        directorMSI_title.setForeground(new java.awt.Color(238, 35, 43));
         directorMSI_title.setText("DIRECTOR");
         MsiTab.add(directorMSI_title, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 20, 140, 40));
 
@@ -927,7 +705,7 @@ public class MainUI extends javax.swing.JFrame {
         MsiTab.add(directorStatusmsi, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 60, 230, 40));
 
         projectManagermsi_title.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        projectManagermsi_title.setForeground(new java.awt.Color(255, 255, 255));
+        projectManagermsi_title.setForeground(new java.awt.Color(238, 35, 43));
         projectManagermsi_title.setText("PROJECT MANAGER");
         MsiTab.add(projectManagermsi_title, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 120, 260, 40));
 
@@ -988,12 +766,12 @@ public class MainUI extends javax.swing.JFrame {
         MsiTab.add(standarComputermsi, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 350, 40, 40));
 
         ComputerProducedmsi.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        ComputerProducedmsi.setForeground(new java.awt.Color(255, 255, 255));
+        ComputerProducedmsi.setForeground(new java.awt.Color(238, 35, 43));
         ComputerProducedmsi.setText("Computers PRODUCED");
         MsiTab.add(ComputerProducedmsi, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, 340, 40));
 
         DaysLeftmsi.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        DaysLeftmsi.setForeground(new java.awt.Color(255, 255, 255));
+        DaysLeftmsi.setForeground(new java.awt.Color(238, 35, 43));
         DaysLeftmsi.setText("DAYS LEFT:");
         MsiTab.add(DaysLeftmsi, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 450, 150, 40));
 
@@ -1018,11 +796,16 @@ public class MainUI extends javax.swing.JFrame {
         MsiTab.add(utilitymsi, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 500, 220, 50));
 
         utilitymsi_label.setEditable(false);
-        utilitymsi_label.setBackground(new java.awt.Color(255, 255, 255));
-        utilitymsi_label.setForeground(new java.awt.Color(51, 51, 51));
+        utilitymsi_label.setBackground(new java.awt.Color(238, 35, 43));
+        utilitymsi_label.setForeground(new java.awt.Color(255, 255, 255));
         utilitymsi_label.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         utilitymsi_label.setText("TOTAL PROFIT:");
         utilitymsi_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
+        utilitymsi_label.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                utilitymsi_labelActionPerformed(evt);
+            }
+        });
         MsiTab.add(utilitymsi_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 500, 210, 50));
 
         qty_cpu_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
@@ -1075,7 +858,7 @@ public class MainUI extends javax.swing.JFrame {
         MsiTab.add(qty_assembli_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 280, 40, 40));
 
         worker_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        worker_msi.setForeground(new java.awt.Color(255, 255, 255));
+        worker_msi.setForeground(new java.awt.Color(238, 35, 43));
         worker_msi.setText("WORKERS");
         MsiTab.add(worker_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 20, 140, 40));
 
@@ -1096,9 +879,9 @@ public class MainUI extends javax.swing.JFrame {
         qty_ram_msi.setText("0");
         MsiTab.add(qty_ram_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 160, 40, 40));
 
-        motherboard_plus_msi.setBackground(new java.awt.Color(255, 255, 255));
+        motherboard_plus_msi.setBackground(new java.awt.Color(238, 35, 43));
         motherboard_plus_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        motherboard_plus_msi.setForeground(new java.awt.Color(51, 51, 51));
+        motherboard_plus_msi.setForeground(new java.awt.Color(255, 255, 255));
         motherboard_plus_msi.setText("+");
         motherboard_plus_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1107,9 +890,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(motherboard_plus_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 90, 50, 20));
 
-        motherboard_Min_msi.setBackground(new java.awt.Color(255, 255, 255));
+        motherboard_Min_msi.setBackground(new java.awt.Color(238, 35, 43));
         motherboard_Min_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        motherboard_Min_msi.setForeground(new java.awt.Color(51, 51, 51));
+        motherboard_Min_msi.setForeground(new java.awt.Color(255, 255, 255));
         motherboard_Min_msi.setText("-");
         motherboard_Min_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1118,9 +901,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(motherboard_Min_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 90, 50, 20));
 
-        cpu_plus_msi.setBackground(new java.awt.Color(255, 255, 255));
+        cpu_plus_msi.setBackground(new java.awt.Color(238, 35, 43));
         cpu_plus_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        cpu_plus_msi.setForeground(new java.awt.Color(51, 51, 51));
+        cpu_plus_msi.setForeground(new java.awt.Color(255, 255, 255));
         cpu_plus_msi.setText("+");
         cpu_plus_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1129,9 +912,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(cpu_plus_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 130, 50, 20));
 
-        ram_plus_msi.setBackground(new java.awt.Color(255, 255, 255));
+        ram_plus_msi.setBackground(new java.awt.Color(238, 35, 43));
         ram_plus_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        ram_plus_msi.setForeground(new java.awt.Color(51, 51, 51));
+        ram_plus_msi.setForeground(new java.awt.Color(255, 255, 255));
         ram_plus_msi.setText("+");
         ram_plus_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1140,9 +923,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(ram_plus_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 170, 50, 20));
 
-        cpu_Min_msi.setBackground(new java.awt.Color(255, 255, 255));
+        cpu_Min_msi.setBackground(new java.awt.Color(238, 35, 43));
         cpu_Min_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        cpu_Min_msi.setForeground(new java.awt.Color(51, 51, 51));
+        cpu_Min_msi.setForeground(new java.awt.Color(255, 255, 255));
         cpu_Min_msi.setText("-");
         cpu_Min_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1151,9 +934,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(cpu_Min_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 130, 50, 20));
 
-        tam_Min_msi.setBackground(new java.awt.Color(255, 255, 255));
+        tam_Min_msi.setBackground(new java.awt.Color(238, 35, 43));
         tam_Min_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        tam_Min_msi.setForeground(new java.awt.Color(51, 51, 51));
+        tam_Min_msi.setForeground(new java.awt.Color(255, 255, 255));
         tam_Min_msi.setText("-");
         tam_Min_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1162,9 +945,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(tam_Min_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 170, 50, 20));
 
-        power_supply_plus_msi.setBackground(new java.awt.Color(255, 255, 255));
+        power_supply_plus_msi.setBackground(new java.awt.Color(238, 35, 43));
         power_supply_plus_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        power_supply_plus_msi.setForeground(new java.awt.Color(51, 51, 51));
+        power_supply_plus_msi.setForeground(new java.awt.Color(255, 255, 255));
         power_supply_plus_msi.setText("+");
         power_supply_plus_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1173,9 +956,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(power_supply_plus_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 210, 50, 20));
 
-        powerSupply_Min_msi.setBackground(new java.awt.Color(255, 255, 255));
+        powerSupply_Min_msi.setBackground(new java.awt.Color(238, 35, 43));
         powerSupply_Min_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        powerSupply_Min_msi.setForeground(new java.awt.Color(51, 51, 51));
+        powerSupply_Min_msi.setForeground(new java.awt.Color(255, 255, 255));
         powerSupply_Min_msi.setText("-");
         powerSupply_Min_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1184,9 +967,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(powerSupply_Min_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 210, 50, 20));
 
-        gpu_Min_msi.setBackground(new java.awt.Color(255, 255, 255));
+        gpu_Min_msi.setBackground(new java.awt.Color(238, 35, 43));
         gpu_Min_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        gpu_Min_msi.setForeground(new java.awt.Color(51, 51, 51));
+        gpu_Min_msi.setForeground(new java.awt.Color(255, 255, 255));
         gpu_Min_msi.setText("-");
         gpu_Min_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1195,9 +978,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(gpu_Min_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 250, 50, 20));
 
-        gpu_plus_msi.setBackground(new java.awt.Color(255, 255, 255));
+        gpu_plus_msi.setBackground(new java.awt.Color(238, 35, 43));
         gpu_plus_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        gpu_plus_msi.setForeground(new java.awt.Color(51, 51, 51));
+        gpu_plus_msi.setForeground(new java.awt.Color(255, 255, 255));
         gpu_plus_msi.setText("+");
         gpu_plus_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1206,9 +989,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(gpu_plus_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 250, 50, 20));
 
-        assembling_Min_msi.setBackground(new java.awt.Color(255, 255, 255));
+        assembling_Min_msi.setBackground(new java.awt.Color(238, 35, 43));
         assembling_Min_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        assembling_Min_msi.setForeground(new java.awt.Color(51, 51, 51));
+        assembling_Min_msi.setForeground(new java.awt.Color(255, 255, 255));
         assembling_Min_msi.setText("-");
         assembling_Min_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1217,9 +1000,9 @@ public class MainUI extends javax.swing.JFrame {
         });
         MsiTab.add(assembling_Min_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 290, 50, 20));
 
-        assemblin_plus_msi.setBackground(new java.awt.Color(255, 255, 255));
+        assemblin_plus_msi.setBackground(new java.awt.Color(238, 35, 43));
         assemblin_plus_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
-        assemblin_plus_msi.setForeground(new java.awt.Color(51, 51, 51));
+        assemblin_plus_msi.setForeground(new java.awt.Color(255, 255, 255));
         assemblin_plus_msi.setText("+");
         assemblin_plus_msi.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1229,19 +1012,19 @@ public class MainUI extends javax.swing.JFrame {
         MsiTab.add(assemblin_plus_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 290, 50, 20));
 
         earningsmsi_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        earningsmsi_label.setForeground(new java.awt.Color(255, 255, 255));
+        earningsmsi_label.setForeground(new java.awt.Color(238, 35, 43));
         earningsmsi_label.setText("EARNINGS: ");
         MsiTab.add(earningsmsi_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 460, 150, 40));
 
         costsmsi_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        costsmsi_label.setForeground(new java.awt.Color(255, 255, 255));
+        costsmsi_label.setForeground(new java.awt.Color(238, 35, 43));
         costsmsi_label.setText("COSTS:");
         MsiTab.add(costsmsi_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 510, 100, 40));
 
         msi_Label.setFont(new java.awt.Font("Microsoft YaHei", 1, 36)); // NOI18N
-        msi_Label.setForeground(new java.awt.Color(255, 255, 255));
-        msi_Label.setText("MSI");
-        MsiTab.add(msi_Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 130, 50));
+        msi_Label.setForeground(new java.awt.Color(238, 35, 43));
+        msi_Label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/pngwing.com (1).png"))); // NOI18N
+        MsiTab.add(msi_Label, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 140, 50));
 
         Tabs.addTab("MSI", MsiTab);
 
@@ -1255,11 +1038,6 @@ public class MainUI extends javax.swing.JFrame {
 
         DellTab.setBackground(new java.awt.Color(51, 51, 51));
         DellTab.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        Dell_lable.setFont(new java.awt.Font("Microsoft YaHei", 1, 36)); // NOI18N
-        Dell_lable.setForeground(new java.awt.Color(255, 153, 0));
-        Dell_lable.setText("Dell");
-        DellTab.add(Dell_lable, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 290, 60));
 
         dell_label_ram.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_label_ram.setForeground(new java.awt.Color(255, 255, 255));
@@ -1310,7 +1088,7 @@ public class MainUI extends javax.swing.JFrame {
         DellTab.add(dell_label_mb, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 190, 150, 40));
 
         computer_parts_title_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        computer_parts_title_dell.setForeground(new java.awt.Color(255, 153, 0));
+        computer_parts_title_dell.setForeground(new java.awt.Color(8, 107, 164));
         computer_parts_title_dell.setText("Computer parts");
         DellTab.add(computer_parts_title_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 150, 290, 40));
 
@@ -1347,7 +1125,7 @@ public class MainUI extends javax.swing.JFrame {
         DellTab.add(max_dell_gpu, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 390, 40, 40));
 
         directordell_title.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        directordell_title.setForeground(new java.awt.Color(255, 153, 0));
+        directordell_title.setForeground(new java.awt.Color(8, 107, 164));
         directordell_title.setText("DIRECTOR");
         DellTab.add(directordell_title, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 20, 140, 40));
 
@@ -1364,7 +1142,7 @@ public class MainUI extends javax.swing.JFrame {
         DellTab.add(director_status_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 60, 210, 40));
 
         projectManager_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        projectManager_dell.setForeground(new java.awt.Color(255, 153, 0));
+        projectManager_dell.setForeground(new java.awt.Color(8, 107, 164));
         projectManager_dell.setText("PROJECT MANAGER");
         DellTab.add(projectManager_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 120, 260, 40));
 
@@ -1425,47 +1203,47 @@ public class MainUI extends javax.swing.JFrame {
         DellTab.add(standardComputer_dell_qty, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 350, 40, 40));
 
         ComputerProduced_del.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        ComputerProduced_del.setForeground(new java.awt.Color(255, 153, 0));
+        ComputerProduced_del.setForeground(new java.awt.Color(8, 107, 164));
         ComputerProduced_del.setText("Computers PRODUCED");
         DellTab.add(ComputerProduced_del, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 310, 330, 40));
 
         daysleftDell.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        daysleftDell.setForeground(new java.awt.Color(255, 153, 0));
+        daysleftDell.setForeground(new java.awt.Color(8, 107, 164));
         daysleftDell.setText("DAYS LEFT:");
         DellTab.add(daysleftDell, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 450, 150, 40));
 
         daysLeftdell.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        daysLeftdell.setForeground(new java.awt.Color(255, 153, 0));
+        daysLeftdell.setForeground(new java.awt.Color(8, 107, 164));
         daysLeftdell.setText("0");
         DellTab.add(daysLeftdell, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 450, 50, 40));
 
         earningsdell.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        earningsdell.setForeground(new java.awt.Color(255, 153, 0));
+        earningsdell.setForeground(new java.awt.Color(255, 255, 255));
         earningsdell.setText("0");
         DellTab.add(earningsdell, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 460, 210, 40));
 
         earningsdell_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        earningsdell_label.setForeground(new java.awt.Color(255, 153, 0));
+        earningsdell_label.setForeground(new java.awt.Color(8, 107, 164));
         earningsdell_label.setText("EARNINGS: ");
         DellTab.add(earningsdell_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 460, 150, 40));
 
         costsdell_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        costsdell_label.setForeground(new java.awt.Color(255, 153, 0));
+        costsdell_label.setForeground(new java.awt.Color(8, 107, 164));
         costsdell_label.setText("COSTS:");
         DellTab.add(costsdell_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 510, 100, 40));
 
         costsdell.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        costsdell.setForeground(new java.awt.Color(255, 153, 0));
+        costsdell.setForeground(new java.awt.Color(255, 255, 255));
         costsdell.setText("0");
         DellTab.add(costsdell, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 510, 220, 40));
 
         utilitydell.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        utilitydell.setForeground(new java.awt.Color(255, 153, 0));
+        utilitydell.setForeground(new java.awt.Color(8, 107, 164));
         utilitydell.setText("0");
         DellTab.add(utilitydell, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 500, 220, 50));
 
         utility_dell_days.setEditable(false);
-        utility_dell_days.setBackground(new java.awt.Color(255, 153, 0));
+        utility_dell_days.setBackground(new java.awt.Color(8, 107, 164));
         utility_dell_days.setForeground(new java.awt.Color(255, 255, 255));
         utility_dell_days.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         utility_dell_days.setText("TOTAL PROFIT:");
@@ -1522,7 +1300,7 @@ public class MainUI extends javax.swing.JFrame {
         DellTab.add(dell_assembly, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 280, 40, 40));
 
         wm_label5.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
-        wm_label5.setForeground(new java.awt.Color(255, 153, 0));
+        wm_label5.setForeground(new java.awt.Color(8, 107, 164));
         wm_label5.setText("WORKERS");
         DellTab.add(wm_label5, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 20, 140, 40));
 
@@ -1543,7 +1321,7 @@ public class MainUI extends javax.swing.JFrame {
         dell_ram.setText("0");
         DellTab.add(dell_ram, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 160, 40, 40));
 
-        dell_motherboard_plus.setBackground(new java.awt.Color(255, 153, 0));
+        dell_motherboard_plus.setBackground(new java.awt.Color(8, 107, 164));
         dell_motherboard_plus.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_motherboard_plus.setForeground(new java.awt.Color(255, 255, 255));
         dell_motherboard_plus.setText("+");
@@ -1554,7 +1332,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_motherboard_plus, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 90, 50, 20));
 
-        dell_cpu_plus.setBackground(new java.awt.Color(255, 153, 0));
+        dell_cpu_plus.setBackground(new java.awt.Color(8, 107, 164));
         dell_cpu_plus.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_cpu_plus.setForeground(new java.awt.Color(255, 255, 255));
         dell_cpu_plus.setText("+");
@@ -1565,7 +1343,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_cpu_plus, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 130, 50, 20));
 
-        dell_ram_plus.setBackground(new java.awt.Color(255, 153, 0));
+        dell_ram_plus.setBackground(new java.awt.Color(8, 107, 164));
         dell_ram_plus.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_ram_plus.setForeground(new java.awt.Color(255, 255, 255));
         dell_ram_plus.setText("+");
@@ -1576,7 +1354,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_ram_plus, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 170, 50, 20));
 
-        dell_MotherBoard_min.setBackground(new java.awt.Color(255, 153, 0));
+        dell_MotherBoard_min.setBackground(new java.awt.Color(8, 107, 164));
         dell_MotherBoard_min.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_MotherBoard_min.setForeground(new java.awt.Color(255, 255, 255));
         dell_MotherBoard_min.setText("-");
@@ -1587,7 +1365,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_MotherBoard_min, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 90, 50, 20));
 
-        dell_cpu_min.setBackground(new java.awt.Color(255, 153, 0));
+        dell_cpu_min.setBackground(new java.awt.Color(8, 107, 164));
         dell_cpu_min.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_cpu_min.setForeground(new java.awt.Color(255, 255, 255));
         dell_cpu_min.setText("-");
@@ -1598,7 +1376,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_cpu_min, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 130, 50, 20));
 
-        dell_ram_min.setBackground(new java.awt.Color(255, 153, 0));
+        dell_ram_min.setBackground(new java.awt.Color(8, 107, 164));
         dell_ram_min.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_ram_min.setForeground(new java.awt.Color(255, 255, 255));
         dell_ram_min.setText("-");
@@ -1609,7 +1387,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_ram_min, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 170, 50, 20));
 
-        dell_power_supply_plus.setBackground(new java.awt.Color(255, 153, 0));
+        dell_power_supply_plus.setBackground(new java.awt.Color(8, 107, 164));
         dell_power_supply_plus.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_power_supply_plus.setForeground(new java.awt.Color(255, 255, 255));
         dell_power_supply_plus.setText("+");
@@ -1620,7 +1398,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_power_supply_plus, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 210, 50, 20));
 
-        dell_powerSupply_min.setBackground(new java.awt.Color(255, 153, 0));
+        dell_powerSupply_min.setBackground(new java.awt.Color(8, 107, 164));
         dell_powerSupply_min.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_powerSupply_min.setForeground(new java.awt.Color(255, 255, 255));
         dell_powerSupply_min.setText("-");
@@ -1631,7 +1409,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_powerSupply_min, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 210, 50, 20));
 
-        dell_gpu_min.setBackground(new java.awt.Color(255, 153, 0));
+        dell_gpu_min.setBackground(new java.awt.Color(8, 107, 164));
         dell_gpu_min.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_gpu_min.setForeground(new java.awt.Color(255, 255, 255));
         dell_gpu_min.setText("-");
@@ -1642,7 +1420,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_gpu_min, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 250, 50, 20));
 
-        dell_gpu_plus.setBackground(new java.awt.Color(255, 153, 0));
+        dell_gpu_plus.setBackground(new java.awt.Color(8, 107, 164));
         dell_gpu_plus.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_gpu_plus.setForeground(new java.awt.Color(255, 255, 255));
         dell_gpu_plus.setText("+");
@@ -1653,7 +1431,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_gpu_plus, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 250, 50, 20));
 
-        dell_assembly_mina.setBackground(new java.awt.Color(255, 153, 0));
+        dell_assembly_mina.setBackground(new java.awt.Color(8, 107, 164));
         dell_assembly_mina.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_assembly_mina.setForeground(new java.awt.Color(255, 255, 255));
         dell_assembly_mina.setText("-");
@@ -1664,7 +1442,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_assembly_mina, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 290, 50, 20));
 
-        dell_assembly_plus.setBackground(new java.awt.Color(255, 153, 0));
+        dell_assembly_plus.setBackground(new java.awt.Color(8, 107, 164));
         dell_assembly_plus.setFont(new java.awt.Font("Microsoft YaHei", 1, 18)); // NOI18N
         dell_assembly_plus.setForeground(new java.awt.Color(255, 255, 255));
         dell_assembly_plus.setText("+");
@@ -1675,7 +1453,7 @@ public class MainUI extends javax.swing.JFrame {
         });
         DellTab.add(dell_assembly_plus, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 290, 50, 20));
 
-        startSimulation.setBackground(new java.awt.Color(255, 153, 0));
+        startSimulation.setBackground(new java.awt.Color(8, 107, 164));
         startSimulation.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
         startSimulation.setForeground(new java.awt.Color(255, 255, 255));
         startSimulation.setText("Start");
@@ -1684,14 +1462,246 @@ public class MainUI extends javax.swing.JFrame {
                 startSimulationActionPerformed(evt);
             }
         });
-        DellTab.add(startSimulation, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, 130, 40));
+        DellTab.add(startSimulation, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 40, 130, 40));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/fq9r43ur8i7legj7rmlg9okhtq (3).png"))); // NOI18N
+        DellTab.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 0, -1, -1));
 
         Tabs.addTab("Dell", DellTab);
+
+        ConfigurationTab.setBackground(new java.awt.Color(51, 51, 51));
+        ConfigurationTab.setForeground(new java.awt.Color(255, 255, 255));
+        ConfigurationTab.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        Config_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 36)); // NOI18N
+        Config_label.setForeground(new java.awt.Color(255, 255, 153));
+        Config_label.setText("CONFIGURATION");
+        ConfigurationTab.add(Config_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 10, 330, 60));
+
+        General_label.setBackground(new java.awt.Color(102, 102, 102));
+        General_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
+        General_label.setForeground(new java.awt.Color(255, 255, 255));
+        General_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        General_label.setText("Time Config");
+        ConfigurationTab.add(General_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 140, 250, 40));
+
+        dayDurationInput.setFont(new java.awt.Font("Microsoft YaHei", 0, 12)); // NOI18N
+        dayDurationInput.setForeground(new java.awt.Color(0, 0, 0));
+        jScrollPane1.setViewportView(dayDurationInput);
+
+        ConfigurationTab.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 230, 120, -1));
+
+        deliveryDaysInput.setFont(new java.awt.Font("Microsoft YaHei", 0, 12)); // NOI18N
+        deliveryDaysInput.setForeground(new java.awt.Color(0, 0, 0));
+        jScrollPane2.setViewportView(deliveryDaysInput);
+
+        ConfigurationTab.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 300, 120, -1));
+
+        setConfiguration.setBackground(new java.awt.Color(255, 255, 153));
+        setConfiguration.setFont(new java.awt.Font("Microsoft YaHei UI", 1, 18)); // NOI18N
+        setConfiguration.setForeground(new java.awt.Color(51, 51, 51));
+        setConfiguration.setText("SET CONFIGURATION");
+        setConfiguration.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                setConfigurationActionPerformed(evt);
+            }
+        });
+        ConfigurationTab.add(setConfiguration, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 350, 260, 50));
+
+        infoLabel.setBackground(new java.awt.Color(102, 102, 102));
+        infoLabel.setFont(new java.awt.Font("Microsoft YaHei", 1, 10)); // NOI18N
+        infoLabel.setForeground(new java.awt.Color(255, 255, 153));
+        infoLabel.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        infoLabel.setText("You have to press the button to set the configuration");
+        ConfigurationTab.add(infoLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 420, 280, 30));
+
+        dayDuration_label.setBackground(new java.awt.Color(102, 102, 102));
+        dayDuration_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        dayDuration_label.setForeground(new java.awt.Color(255, 255, 255));
+        dayDuration_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dayDuration_label.setText("Day Duration (seconds)");
+        ConfigurationTab.add(dayDuration_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(750, 190, 170, 30));
+
+        deliveryDays_label.setBackground(new java.awt.Color(102, 102, 102));
+        deliveryDays_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        deliveryDays_label.setForeground(new java.awt.Color(255, 255, 255));
+        deliveryDays_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        deliveryDays_label.setText("Days to Deliver");
+        ConfigurationTab.add(deliveryDays_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 260, 110, 30));
+
+        DellConfig_label.setBackground(new java.awt.Color(102, 102, 102));
+        DellConfig_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
+        DellConfig_label.setForeground(new java.awt.Color(255, 255, 255));
+        DellConfig_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        DellConfig_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/fq9r43ur8i7legj7rmlg9okhtq (3).png"))); // NOI18N
+        ConfigurationTab.add(DellConfig_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(1130, 100, 310, 200));
+
+        DelllMinWorker_label.setBackground(new java.awt.Color(102, 102, 102));
+        DelllMinWorker_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        DelllMinWorker_label.setForeground(new java.awt.Color(255, 255, 153));
+        DelllMinWorker_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        DelllMinWorker_label.setText("MAXIMUM 18 WORKERS");
+        ConfigurationTab.add(DelllMinWorker_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, 180, 30));
+
+        MSIConfig_label.setBackground(new java.awt.Color(102, 102, 102));
+        MSIConfig_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 24)); // NOI18N
+        MSIConfig_label.setForeground(new java.awt.Color(255, 255, 255));
+        MSIConfig_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MSIConfig_label.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/pngwing.com (1).png"))); // NOI18N
+        ConfigurationTab.add(MSIConfig_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 80, 270, 60));
+
+        CNMaximumWorkers_label.setBackground(new java.awt.Color(102, 102, 102));
+        CNMaximumWorkers_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        CNMaximumWorkers_label.setForeground(new java.awt.Color(255, 255, 153));
+        CNMaximumWorkers_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        CNMaximumWorkers_label.setText("MAXIMUM 16 WORKERS");
+        ConfigurationTab.add(CNMaximumWorkers_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 150, 170, 30));
+
+        MotherBoard_label.setBackground(new java.awt.Color(102, 102, 102));
+        MotherBoard_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        MotherBoard_label.setForeground(new java.awt.Color(255, 255, 255));
+        MotherBoard_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        MotherBoard_label.setText(" Motherboard Producers");
+        ConfigurationTab.add(MotherBoard_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 190, 30));
+
+        productores_placa_base_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_placa_base_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
+        ConfigurationTab.add(productores_placa_base_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 230, -1, 30));
+
+        CPU_label.setBackground(new java.awt.Color(102, 102, 102));
+        CPU_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        CPU_label.setForeground(new java.awt.Color(255, 255, 255));
+        CPU_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        CPU_label.setText("CPU Producers");
+        ConfigurationTab.add(CPU_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 260, 120, 30));
+
+        productores_cpu_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_cpu_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
+        ConfigurationTab.add(productores_cpu_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 290, -1, 30));
+
+        dell_ram_label.setBackground(new java.awt.Color(102, 102, 102));
+        dell_ram_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        dell_ram_label.setForeground(new java.awt.Color(255, 255, 255));
+        dell_ram_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        dell_ram_label.setText("RAM Memory Producers");
+        ConfigurationTab.add(dell_ram_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 330, 190, 30));
+
+        productores_memoria_ram_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_memoria_ram_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
+        ConfigurationTab.add(productores_memoria_ram_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 360, -1, 30));
+
+        PowerSupply_label.setBackground(new java.awt.Color(102, 102, 102));
+        PowerSupply_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        PowerSupply_label.setForeground(new java.awt.Color(255, 255, 255));
+        PowerSupply_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        PowerSupply_label.setText("Power Supply Producers");
+        ConfigurationTab.add(PowerSupply_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 390, 170, 30));
+
+        productores_fuente_alimentacion_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_fuente_alimentacion_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
+        ConfigurationTab.add(productores_fuente_alimentacion_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 420, -1, 30));
+
+        gpu_label.setBackground(new java.awt.Color(102, 102, 102));
+        gpu_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        gpu_label.setForeground(new java.awt.Color(255, 255, 255));
+        gpu_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        gpu_label.setText("GPU Producers");
+        ConfigurationTab.add(gpu_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 450, 110, 30));
+
+        productores_gpu_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_gpu_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
+        ConfigurationTab.add(productores_gpu_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 480, -1, 30));
+
+        assemblers_label.setBackground(new java.awt.Color(102, 102, 102));
+        assemblers_label.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        assemblers_label.setForeground(new java.awt.Color(255, 255, 255));
+        assemblers_label.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        assemblers_label.setText("Assembling producers");
+        ConfigurationTab.add(assemblers_label, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 510, 180, 30));
+
+        productores_ensambladores_dell.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_ensambladores_dell.setModel(new javax.swing.SpinnerNumberModel(1, 1, 13, 1));
+        ConfigurationTab.add(productores_ensambladores_dell, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 550, -1, 30));
+
+        motherboard_label1.setBackground(new java.awt.Color(102, 102, 102));
+        motherboard_label1.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        motherboard_label1.setForeground(new java.awt.Color(255, 255, 255));
+        motherboard_label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        motherboard_label1.setText(" Motherboard Producers");
+        ConfigurationTab.add(motherboard_label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 190, 190, 30));
+
+        cpu_label1.setBackground(new java.awt.Color(102, 102, 102));
+        cpu_label1.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        cpu_label1.setForeground(new java.awt.Color(255, 255, 255));
+        cpu_label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        cpu_label1.setText("CPU Producers");
+        ConfigurationTab.add(cpu_label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 270, 120, 30));
+
+        Ram_label_msi.setBackground(new java.awt.Color(102, 102, 102));
+        Ram_label_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        Ram_label_msi.setForeground(new java.awt.Color(255, 255, 255));
+        Ram_label_msi.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        Ram_label_msi.setText("RAM Memory Producers");
+        ConfigurationTab.add(Ram_label_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 330, 200, 30));
+
+        PowerSupply_label1.setBackground(new java.awt.Color(102, 102, 102));
+        PowerSupply_label1.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        PowerSupply_label1.setForeground(new java.awt.Color(255, 255, 255));
+        PowerSupply_label1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        PowerSupply_label1.setText("Power Supply Producers");
+        ConfigurationTab.add(PowerSupply_label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 390, 220, 30));
+
+        gpu_label2.setBackground(new java.awt.Color(102, 102, 102));
+        gpu_label2.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        gpu_label2.setForeground(new java.awt.Color(255, 255, 255));
+        gpu_label2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        gpu_label2.setText("GPU Producers");
+        ConfigurationTab.add(gpu_label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 460, 110, 30));
+
+        assemblers_label2.setBackground(new java.awt.Color(102, 102, 102));
+        assemblers_label2.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        assemblers_label2.setForeground(new java.awt.Color(255, 255, 255));
+        assemblers_label2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        assemblers_label2.setText("Assembling producers");
+        ConfigurationTab.add(assemblers_label2, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 510, 200, 30));
+
+        productores_placa_base_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_placa_base_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
+        ConfigurationTab.add(productores_placa_base_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 230, -1, 30));
+
+        productores_cpu_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_cpu_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
+        ConfigurationTab.add(productores_cpu_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 300, -1, 30));
+
+        productores_memoria_ram_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_memoria_ram_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
+        ConfigurationTab.add(productores_memoria_ram_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 360, -1, 30));
+
+        productores_fuente_alimentacion_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_fuente_alimentacion_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
+        ConfigurationTab.add(productores_fuente_alimentacion_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 430, -1, 30));
+
+        productores_gpu_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_gpu_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
+        ConfigurationTab.add(productores_gpu_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 480, -1, 30));
+
+        productores_ensambladores_msi.setFont(new java.awt.Font("Microsoft YaHei", 1, 12)); // NOI18N
+        productores_ensambladores_msi.setModel(new javax.swing.SpinnerNumberModel(1, 1, 5, 1));
+        ConfigurationTab.add(productores_ensambladores_msi, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 550, -1, 30));
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/assets/fq9r43ur8i7legj7rmlg9okhtq (3).png"))); // NOI18N
+        ConfigurationTab.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 20, -1, -1));
+
+        Tabs.addTab("Configuration", ConfigurationTab);
 
         getContentPane().add(Tabs, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 1020, 640));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void utilitymsi_labelActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_utilitymsi_labelActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_utilitymsi_labelActionPerformed
 
     private void startSimulationActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_startSimulationActionPerformed
         getDell().start();
@@ -1929,7 +1939,6 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JLabel DaysLeftmsi;
     private javax.swing.JLabel DellConfig_label;
     private javax.swing.JPanel DellTab;
-    private javax.swing.JLabel Dell_lable;
     private javax.swing.JLabel DelllMinWorker_label;
     private javax.swing.JLabel General_label;
     private javax.swing.JLabel MSIConfig_label;
@@ -2026,6 +2035,8 @@ public class MainUI extends javax.swing.JFrame {
     private javax.swing.JButton gpu_plus_msi;
     private javax.swing.JLabel gpu_producer_msi;
     private javax.swing.JLabel infoLabel;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel managerDiscountedmsi;

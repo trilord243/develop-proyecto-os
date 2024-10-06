@@ -96,47 +96,33 @@ public class ReadFile {
     int[] workerSalariesPerHour = {20, 26, 40, 16, 34, 50};
 
     switch (studio) {
-        case 0 -> {
+        case 0 -> { // Dell
             ComputerSpecs dellSpecs = new ComputerSpecs(0);
 
-            WorkerParams motherboardProducer = new WorkerParams(Integer.parseInt(companyParameter[2]), 1/3f,
-                    workerTypeStrings[0], workerSalariesPerHour[0]);
-            WorkerParams cpuProducer = new WorkerParams(Integer.parseInt(companyParameter[4]), 1/3f,
-                    workerTypeStrings[1], workerSalariesPerHour[1]);
-            WorkerParams ramProducer = new WorkerParams(Integer.parseInt(companyParameter[6]), 2f,
-                    workerTypeStrings[2], workerSalariesPerHour[2]);
-            WorkerParams powerSupplyProducer = new WorkerParams(Integer.parseInt(companyParameter[8]), 3f,
-                    workerTypeStrings[3], workerSalariesPerHour[3]);
-            WorkerParams gpuProducer = new WorkerParams(Integer.parseInt(companyParameter[10]), 1/2f,
-                    workerTypeStrings[4], workerSalariesPerHour[4]);
-            WorkerParams assemblers = new WorkerParams(Integer.parseInt(companyParameter[12]), 2f,
-                    workerTypeStrings[5], workerSalariesPerHour[5]);
+            // Ajustar las tasas de producción y parámetros con base en el carnet 20171110576
+            WorkerParams motherboardProducer = new WorkerParams(Integer.parseInt(companyParameter[2]), 1/4f, workerTypeStrings[0], workerSalariesPerHour[0]);
+            WorkerParams cpuProducer = new WorkerParams(Integer.parseInt(companyParameter[4]), 1/4f, workerTypeStrings[1], workerSalariesPerHour[1]);
+            WorkerParams ramProducer = new WorkerParams(Integer.parseInt(companyParameter[6]), 1f, workerTypeStrings[2], workerSalariesPerHour[2]);
+            WorkerParams powerSupplyProducer = new WorkerParams(Integer.parseInt(companyParameter[8]), 5f, workerTypeStrings[3], workerSalariesPerHour[3]);
+            WorkerParams gpuProducer = new WorkerParams(Integer.parseInt(companyParameter[10]), 1/2f, workerTypeStrings[4], workerSalariesPerHour[4]);
+            WorkerParams assemblers = new WorkerParams(Integer.parseInt(companyParameter[12]), 2f, workerTypeStrings[5], workerSalariesPerHour[5]);
 
-            Parameters dellParameter = new Parameters(motherboardProducer, cpuProducer, ramProducer, powerSupplyProducer,
-                    gpuProducer, assemblers, dellSpecs);
-
+            Parameters dellParameter = new Parameters(motherboardProducer, cpuProducer, ramProducer, powerSupplyProducer, gpuProducer, assemblers, dellSpecs);
             config.setDellParameters(dellParameter);
         }
 
-        case 1 -> {
+        case 1 -> { // MSI
             ComputerSpecs msiSpecs = new ComputerSpecs(1);
 
-            WorkerParams motherboardProducer = new WorkerParams(Integer.parseInt(companyParameter[2]), 0.5f,
-                    workerTypeStrings[0], workerSalariesPerHour[0]);
-            WorkerParams cpuProducer = new WorkerParams(Integer.parseInt(companyParameter[4]), 0.5f,
-                    workerTypeStrings[1], workerSalariesPerHour[1]);
-            WorkerParams ramProducer = new WorkerParams(Integer.parseInt(companyParameter[6]), 3,
-                    workerTypeStrings[2], workerSalariesPerHour[2]);
-            WorkerParams powerSupplyProducer = new WorkerParams(Integer.parseInt(companyParameter[8]), 3,
-                    workerTypeStrings[3], workerSalariesPerHour[3]);
-            WorkerParams gpuProducer = new WorkerParams(Integer.parseInt(companyParameter[10]), 0.34f,
-                    workerTypeStrings[4], workerSalariesPerHour[4]);
-            WorkerParams assemblers = new WorkerParams(Integer.parseInt(companyParameter[12]), 0.5f,
-                    workerTypeStrings[5], workerSalariesPerHour[5]);
+            // Ajustar las tasas de producción y parámetros con base en el carnet 20211110354
+            WorkerParams motherboardProducer = new WorkerParams(Integer.parseInt(companyParameter[2]), 1/3f, workerTypeStrings[0], workerSalariesPerHour[0]);
+            WorkerParams cpuProducer = new WorkerParams(Integer.parseInt(companyParameter[4]), 1/3f, workerTypeStrings[1], workerSalariesPerHour[1]);
+            WorkerParams ramProducer = new WorkerParams(Integer.parseInt(companyParameter[6]), 2f, workerTypeStrings[2], workerSalariesPerHour[2]);
+            WorkerParams powerSupplyProducer = new WorkerParams(Integer.parseInt(companyParameter[8]), 3f, workerTypeStrings[3], workerSalariesPerHour[3]);
+            WorkerParams gpuProducer = new WorkerParams(Integer.parseInt(companyParameter[10]), 1/3f, workerTypeStrings[4], workerSalariesPerHour[4]);
+            WorkerParams assemblers = new WorkerParams(Integer.parseInt(companyParameter[12]), 2f, workerTypeStrings[5], workerSalariesPerHour[5]);
 
-            Parameters msiParameters = new Parameters(motherboardProducer, cpuProducer, ramProducer,
-                    powerSupplyProducer, gpuProducer, assemblers, msiSpecs);
-
+            Parameters msiParameters = new Parameters(motherboardProducer, cpuProducer, ramProducer, powerSupplyProducer, gpuProducer, assemblers, msiSpecs);
             config.setMsiParameters(msiParameters);
         }
 
@@ -144,6 +130,7 @@ public class ReadFile {
         }
     }
 }
+
 
     public void readConfig(String txt, Config config) {
 
